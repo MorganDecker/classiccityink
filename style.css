@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Pacifico');
+body {
+	background-color: #999999;
+	font-family: 	   Georgia, "Times New Roman", Times, serif;
+	font-size:		   small;
+	margin:			   0px;
+}
+
+@font-face {
+    font-family: 'Freshman';
+    src: url('fonts/Freshman.eot');
+    src: url('fonts/Freshman.eot') format('embedded-opentype'),
+         url('fonts/Freshman.woff2') format('woff2'),
+         url('fonts/Freshman.woff') format('woff'),
+         url('fonts/Freshman.ttf') format('truetype'),
+         url('fonts/Freshman.svg#Freshman') format('svg');
+}
+
+
+
+
+
+
+#logo {
+	display: inline
+	
+	margin-left: 5px;
+	
+	margin-bottom: 3px;
+}
+
+#nav {
+
+	font-family: 'Julius Sans One', sans-serif;
+    list-style: none;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 10px;
+    width: 100%;
+   	text-align: center;
+    
+    height:44px;
+
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 100;
+    
+
+
+}
+
+#nav li {
+    margin: 0px;
+    display:inline;
+    text-align: center;
+}
+
+#nav li a {                     
+	margin-right: 50px;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+
+}
+
+#nav li a:hover {
+    color: white;
+    background-color: #333;
+}
+
+
+
+#shopfront {
+	position:relative;
+    vertical-align: center;
+	height: 485px;
+	margin: 0px 0px 0 0px;
+	
+
+}
+
+.shopfrontbg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+
+#mainheading{
+	font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+	color: black;
+	text-align: center;
+	font-size: x-large;
+	margin-top: 10px;
+
+}
+
+#bio{
+position: relative;
+display: table;
+background-color: black;
+color: white;
+clear: left;
+text-align: center;
+font-size: large;
+padding: 5px; 
+margin left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+width: 100%;
+}
+
+
+.policy_header{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#shop_policy {
+    position: absolute;
+    top: 71%;
+    left: 650px;
+    display: table;
+    background-color: black;
+    color: white;
+    clear: left;
+    text-align: center;
+    font-size: large;
+    padding: 7.5px; 
+    margin left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 600px;;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    
+    
+    
+}
+
+#shop_policy ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+#shop_policy ul li{
+    padding-left:8px;
+    list-style: circle;
+    margin-bottom: 6px;
+    text-align: center;
+    text-indent: -15px;
+    
+}
+
+#shop_policy li:before{
+    padding-right: 4px;
+}
+
+ 
+    
+
+    
+
+
+.neon {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    text-shadow: 0 0 20px #00ffce;
+    
+}
+
+
+
+
+
+.inner {
+    border: 0px;
+    border-color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.icon-background1 {
+    height: 150px;
+	color: #999999;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    
+	
+    
+	
+
+
+}
+
+.social {
+	font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: auto;
+    height: 225px;
+	color: white;
+	float: left;
+    text-align: center;
+    
+
+}
+
+
+
+#Contact h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 25px;
+	color: white;
+    text-align: center;
+}
+
+#Contact h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 0px;
+	color: white;
+    text-align: center;
+}
+
+#Contact {
+    color: white;
+    padding: 5px;
+    height: 225px; 
+    width: 500px;
+    margin-bottom: 17px;
+    margin-right: 20px;
+	color: #999999;
+    float: right;
+    text-align: center;
+    
+}
+
+
+
+
+
+
